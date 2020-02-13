@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Broccoli</title>
+  <desc>A flat styled icon from Orion Icon Library.</desc>
+  <path data-name="layer3"
+  d="M56.968 27.522a6.979 6.979 0 0 0-11.031-8.412 12.991 12.991 0 0 0-25.7-1.717 5.988 5.988 0 0 0-8.254 5.555c0 .031.008.061.01.092a8.609 8.609 0 0 0-1.012-.1 9 9 0 0 0 0 18 8.968 8.968 0 0 0 1.319-.14 5.977 5.977 0 0 0 10.266 2.012h.034l-.64-6.512a12.939 12.939 0 0 0 13.64-3.609 13.074 13.074 0 0 0 6.086 5.83l-.926 4.629a6.983 6.983 0 0 0 12.563-.277c.234.02.461.07.7.07a7.992 7.992 0 0 0 2.949-15.424z"
+  fill="#8caf61"></path>
+  <path data-name="layer2" d="M35.6 32.691A12.939 12.939 0 0 1 21.96 36.3l.642 6.516L24 56.947h14l2.759-13.8.926-4.629a13.074 13.074 0 0 1-6.085-5.827z"
+  fill="#d4dc9a"></path>
+  <path data-name="layer1" d="M30.98 56.947V41.053a1 1 0 0 0-2 0v15.894z"
+  fill="#a7c180"></path>
+</svg>

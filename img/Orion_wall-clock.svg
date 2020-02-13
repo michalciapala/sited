@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Wall Clock</title>
+  <desc>A flat styled icon from Orion Icon Library.</desc>
+  <circle data-name="layer3"
+  cx="32" cy="32" r="30" fill="#cce3ff"></circle>
+  <path data-name="opacity" d="M46.707 20.707a1 1 0 0 0-1.414-1.414l-13.4 13.4A2.971 2.971 0 0 0 30 32a2.925 2.925 0 0 0-.815.128l-8.9-7.847-2.056 2.085a1 1 0 0 0 .142 1.407l8.648 7.075c0 .051-.015.1-.015.151a2.986 2.986 0 0 0 4.99 2.228l.01.006.072-.074c.034-.032.066-.066.1-.1L34.187 35 33 34.969a3.061 3.061 0 0 0-.051-.5z"
+  fill="#000064" opacity=".15"></path>
+  <path data-name="layer2" d="M32 13a1 1 0 0 1-1-1V7a1 1 0 0 1 2 0v5a1 1 0 0 1-1 1zm0 45a1 1 0 0 1-1-1v-5a1 1 0 0 1 2 0v5a1 1 0 0 1-1 1zM12 33H7a1 1 0 0 1 0-2h5a1 1 0 0 1 0 2zm45 0h-5a1 1 0 0 1 0-2h5a1 1 0 0 1 0 2z"
+  fill="#7c89ad"></path>
+  <circle data-name="layer2" cx="32" cy="33" r="2" fill="#7c89ad"></circle>
+  <path data-name="layer2" d="M32 36a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm0-4a1 1 0 1 0 1 1 1 1 0 0 0-1-1z"
+  fill="#7c89ad"></path>
+  <path data-name="layer2" d="M30.083 33.433a.992.992 0 0 1-.632-.227l-9.084-7.432a1 1 0 1 1 1.266-1.548l9.084 7.432a1 1 0 0 1-.634 1.774zm3.739-.255a1 1 0 0 1-.707-1.707l14.178-14.178a1 1 0 0 1 1.414 1.414L34.529 32.885a1 1 0 0 1-.707.293z"
+  fill="#7c89ad"></path>
+</svg>

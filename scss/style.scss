@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+
+body {
+ font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif,Helvetica, Arial, sans-serif;
+ font-weight: 700;
+ color: rgb(73, 73, 73);
+}
+
+li {
+ padding: 10px;
+}
+
+.top-box {
+ background-image: url(/img/pexels-photo-2696064.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-color: black;
+ height: 750px;
+ 
+ img {
+  margin-top: 180px;
+ }
+ h1 {
+  color: white;
+  font-size: 55px;
+  font-weight: 700;
+  margin-top: 280px;
+ }
+ p {
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+ }
+}
+
+/* About Section */
+
+.about {
+ margin-top: 80px;
+ margin-bottom: 40px;
+ h1 {
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 20px;
+ }
+ p {
+  font-size: 17px;
+  font-weight: 400;
+ }
+}
+
+/* Explain Section */
+
+.explain {
+ margin-top: 40px;
+ margin-bottom: 80px;
+ h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgb(111, 197, 31);
+ }
+ p {
+  font-size: 17px;
+  font-weight: 400;
+ }
+}
+
+/* Benefits Section */
+
+.benefits {
+ margin-top: 80px;
+ color: rgb(73, 73, 73);
+ .benefits-box {
+  background-color: #fffae3;
+  padding-top: 40px;
+  padding-bottom: 50px;
+ }
+ h1 {
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-size: 50px;
+ }
+ h5 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+ }
+ img {
+  width: 140px;
+  margin: 10px 0 25px 0;
+  background-color: #e0cc7c;
+  padding: 30px;
+  border-radius: 5px 35px 5px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 11.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+ }
+
+ h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 18px;
+  color: rgb(73, 73, 73);
+  font-weight: 600;
+ }
+ .bolded-text {
+  font-weight: 700;
+ }
+}
+
+/* Diets Section */
+
+.diets {
+ margin-bottom: 20px;
+ h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 70px;
+ }
+ h2 {
+  font-weight: 700;
+  font-size: 24px;
+ }
+ h3 {
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-top: 100px;
+ }
+ p {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 35px;
+ }
+ h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(255, 174, 0);
+  transition: all .2s ease-in-out;
+ }
+ .diet-image {
+  width: 200px;
+  margin-bottom: 25px;
+  transition: all .2s ease-in-out;
+ }
+ .diet-image:hover {
+  transform: scale(1.1);
+ }
+ .floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.arrow-diet {
+ width: 20px;
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+}
+
+/* Guide Section */
+
+ .guide {
+  background-color: rgb(233, 255, 233);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  .guide-box {
+   h1 {
+    font-weight: 700;
+    font-size: 40px;
+   }
+   p {
+    font-size: 18px;
+    font-weight: 500;
+   }
+   .button-large-green {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 10px 40px;
+    border-radius: 100px;
+    background-color: rgb(82, 202, 26);
+    color: white;
+    border: none;
+    font-weight: 600;
+  }
+ }
+}
+
+/* Help Section */
+
+.help {
+ margin-top: 70px;
+ margin-bottom: 30px;
+ h1 {
+  font-weight: 700;
+  font-size: 50px;
+ }
+ p {
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 50px;
+ }
+ h2 {
+ font-weight: 400;
+ font-size: 21px;
+ margin-top: 20px;
+ }
+ img {
+  width: 120px;
+ }
+
+ /*  Help - Map Section */
+
+ .button-large-blue {
+  margin-top: 130px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 10px 40px;
+  border-radius: 100px;
+  background-color: rgb(26, 123, 202);
+  color: white;
+  border: none;
+  font-weight: 600;
+ }
+
+ h5 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: rgb(26, 123, 202);
+  font-weight: 600;
+ }
+
+ .map-img{
+  width: 20px;
+  padding-left: 4px;
+ }
+}
+
+/* Footer */
+
+.footer {
+ background-color: rgb(233, 233, 233);
+ margin-top: 100px;
+ padding-top: 30px;
+ p {
+  font-size: 13px;
+  font-weight: 600;
+ }
+ h1 {
+  font-size: 15px;
+ }
+ img {
+  width: 100px;
+ }
+}
+
+/*------------- Form ---------------*/
+
+.nb-form {
+ position: fixed;
+ z-index: 9999;
+ width: 300px;
+ background: #FFF;
+ right: 20px;
+ bottom: -375px;
+ transition: all .8s cubic-bezier(.22, .67, .43, 1.22) .2s;
+ border-radius: 10px 10px 0 0;
+ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+}
+.nb-form:hover {
+ bottom: 0px;
+}
+
+/*-- User Icon --*/
+
+.nb-form .user-icon {
+ position: absolute;
+ top: -12px;
+ right: 12px;
+ display: block;
+ width: 50px;
+ margin: 20px auto 15px;
+ border-radius: 100%;
+}
+
+/*-- Title --*/
+
+.nb-form .title {
+ background: rgb(82, 202, 26);
+ font-size: 16px !important;
+ padding: 20px 18px !important;
+ color: #fff !important;
+ border-radius: 10px 10px 0 0;
+ font-weight: 600;
+}
+
+/*-- Text --*/
+
+.nb-form p {
+ font-size: 13px;
+ margin: 0;
+ padding: 15px;
+ color: rgb(34, 34, 34);
+}
+
+.nb-form p.message {
+ margin-left: 7px;
+}
+
+/*-- Form Elements --*/
+
+.nb-form form {
+ padding: 0 15px 15px 15px;
+}
+
+.nb-form input,
+.nb-form textarea {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Geneva, sans-serif;
+ font-size: 12px;
+ width: 254px;
+ max-width: 254px;
+ margin-bottom: 10px;
+ margin-left: 7px;
+ padding: 6px;
+ border: none;
+ border-radius: 4px;
+ color: rgb(83, 83, 83);
+ border-bottom: 1px solid #f0f0f0;
+}
+
+.nb-form input:focus,
+.nb-form textarea:focus {
+ outline: none;
+ box-shadow: none;
+}
+
+.nb-form input[type='submit'] {
+ display: block;
+ width: 120px;
+ margin: 0 auto;
+ padding: 0 20px;
+ height: 40px;
+ line-height: 40px;
+ border-radius: 20px;
+ cursor: pointer;
+ transition: all .4s ease;
+ color: #fff !important;
+ border: none;
+}
+
+.nb-form input[type='submit']:hover {
+ box-shadow: 0 3px 3px 0 rgba(0,0,0,0.07),0 1px 7px 0 rgba(0,0,0,0.02),0 3px 1px -1px rgba(0,0,0,0.1);
+}
+
+.nb-form textarea {
+ min-height: 110px;
+}
+
+
+.nb-form ::-webkit-input-placeholder {
+ color: #313131;
+}
+
+.nb-form ::-moz-placeholder{
+ color: #313131;
+}
+
+.nb-form :-ms-input-placeholder {
+ color: #313131;
+}
+
+.nb-form :-moz-placeholder {
+ color: #313131;
+}
+
+.nb-form input[type='submit'] {
+ background: rgb(82, 202, 26);
+}
+
+@media screen and (max-width: 676px) {
+ .nb-form:hover .user-icon {
+     display: none;
+ }
+
+ .nb-form .message {
+     display: none;
+ }
+
+ .nb-form form {
+     padding-top: 15px;
+ }
+ .nb-form{
+     right: 50%;
+     bottom: -320px;
+     left: 50%;
+     transform: translateX(-50%);
+ }
+}
+
+/* Sticky Socials */
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+ position: fixed;
+ top: 50%;
+ -webkit-transform: translateY(-50%);
+ -ms-transform: translateY(-50%);
+ transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+ display: block;
+ text-align: center;
+ padding: 10px;
+ transition: all 0.3s ease;
+ color: white;
+ font-size: 15px;
+ opacity: 80%;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+ background-color: #000;
+}
+
+.facebook {
+ background: rgb(82, 202, 26);
+ color: white;
+}
+
+.google {
+ background: rgb(82, 202, 26);
+ color: white;
+}
+
+.instagram {
+ background: rgb(82, 202, 26);
+ color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .top-box {
+   height: 500px;
+   h1 {
+    font-size: 35px;
+    margin-top: 150px;
+   }
+   p {
+    font-size: 25px;
+   }
+
+  }
+
+  .navbar img {
+    width: 80px;
+   }
+
+  .navbar-toggler {
+    border: none;
+    list-style-type: none;
+   }
+
+
+  .benefits {
+   img {
+    width: 120px;
+    padding: 25px;
+   }
+  }
+  .diets {
+   .diet-image {
+    width: 130px;
+   }
+  }
+  .help {
+   img {
+    width: 90px;
+   }
+   
+  }
+
+}
+
+
+
+
+
